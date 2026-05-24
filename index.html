@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập mảnh JS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+
+    <h1>Bài Tập Mảng JavaScript</h1>
+
+    <label>Nhập mảng (cách nhau bằng dấu phẩy):</label>
+    <input type="text" id="arrayInput" placeholder="Ví dụ: 1,2,-3,4,5">
+
+    <div class="swap-box">
+        <label>Vị trí đổi chỗ:</label>
+        <input type="number" id="index1" placeholder="Vị trí thứ nhất">
+        <input type="number" id="index2" placeholder="Vị trí thứ hai">
+    </div>
+
+    <div class="menu">
+
+        <button onclick="tongSoDuong()">1. Tổng số dương</button>
+
+        <button onclick="demSoDuong()">2. Đếm số dương</button>
+
+        <button onclick="timSoNhoNhat()">3. Tìm số nhỏ nhất</button>
+
+        <button onclick="timSoDuongNhoNhat()">4. Tìm số dương nhỏ nhất</button>
+
+        <button onclick="timSoChanCuoi()">5. Tìm số chẵn cuối</button>
+
+        <button onclick="doiCho()">6. Đổi chỗ 2 giá trị</button>
+
+        <button onclick="sapXepTangDan()">7. Sắp xếp tăng dần</button>
+
+        <button onclick="timSoNguyenToDauTien()">8. Số nguyên tố đầu tiên</button>
+
+        <button onclick="demSoNguyen()">9. Đếm số nguyên</button>
+
+        <button onclick="soSanhDuongAm()">10. So sánh số dương và âm</button>
+
+    </div>
+
+    <div class="result" id="result">
+        Kết quả sẽ hiển thị ở đây...
+    </div>
+</div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
